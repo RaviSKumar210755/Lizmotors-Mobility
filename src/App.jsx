@@ -10,7 +10,7 @@ import ReactFlow, {
 } from "reactflow";
 
 import "reactflow/dist/style.css";
-import Navbar from "./Components/Navbar";
+import HomeComponent from "./Components/HomeComponent";
 
 const initialNodes = [
   { id: "1", position: { x: 0, y: 0 }, data: { label: "1" } },
@@ -28,7 +28,7 @@ export default function App() {
   );
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
-      <Navbar />
+      <HomeComponent />
     </div>
   );
 }
