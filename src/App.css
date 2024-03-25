@@ -1,0 +1,38 @@
+.tree-container {
+  font-family: Arial, sans-serif;
+}
+
+.tree-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.tree-children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tree-child {
+  display: flex;
+  align-items: center;
+}
+
+.tree-line-vertical {
+  border-left: 2px solid black;
+  height: 20px;
+  margin-left: 5px;
+}
+.react-flow__node {
+  background-color: rgb(160, 160, 242) !important;
+}
+.react-flow__node:hover {
+  background-color: rgb(223, 223, 238) !important;
+}
+
+body {
+  background-color: rgb(219, 219, 239);
+}
+/* Adjust spacing and styling as needed */
